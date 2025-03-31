@@ -4,6 +4,7 @@ const ToDoList = () => {
   const [tasks, setTasks] = useState([]);
   const [inputValue, setInputValue] = useState('');
 
+  //info//
   useEffect(() => {
     const savedTasks = localStorage.getItem('data');
     if (savedTasks) {
